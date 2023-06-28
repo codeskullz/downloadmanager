@@ -1,0 +1,17 @@
+plugin:
+    name: 'nielsvandendries.downloadmanager::lang.plugin.name'
+    description: 'nielsvandendries.downloadmanager::lang.plugin.description'
+    author: 'Niels van den Dries'
+    icon: oc-icon-file
+    homepage: ''
+permissions:
+    Downloadmanager:
+        tab: 'nielsvandendries.downloadmanager::lang.plugin.name'
+        label: 'Download Manager'
+navigation:
+    main-menu-item:
+        label: 'Download Manager'
+        url: nielsvandendries/downloadmanager/files
+        icon: icon-files-o
+        permissions:
+            - Downloadmanager

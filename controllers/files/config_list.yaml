@@ -1,0 +1,12 @@
+title: Files
+modelClass: NielsVanDenDries\Downloadmanager\Models\Files
+list: $/nielsvandendries/downloadmanager/models/files/columns.yaml
+recordUrl: 'nielsvandendries/downloadmanager/files/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

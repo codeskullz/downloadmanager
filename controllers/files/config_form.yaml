@@ -1,0 +1,11 @@
+name: Files
+modelClass: NielsVanDenDries\Downloadmanager\Models\Files
+form: $/nielsvandendries/downloadmanager/models/files/fields.yaml
+defaultRedirect: nielsvandendries/downloadmanager/files
+create:
+    redirect: 'nielsvandendries/downloadmanager/files/update/:id'
+    redirectClose: nielsvandendries/downloadmanager/files
+update:
+    redirect: nielsvandendries/downloadmanager/files
+    redirectClose: nielsvandendries/downloadmanager/files
+preview: {  }
